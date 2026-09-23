@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diriku</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 450px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            padding: 30px 20px;
+        }
+
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 4px solid white;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 25px 20px;
+            text-align: left;
+        }
+
+        .info-group {
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+        }
+
+        .info-group:last-child {
+            border-bottom: none;
+        }
+
+        .label {
+            font-size: 0.8rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .value {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #444;
+            margin-top: 2px;
+        }
+
+        .skills {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 5px;
+        }
+
+        .tag {
+            background-color: #eef2ff;
+            color: #4f46e5;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="header">
+            <!-- Ganti URL gambar di bawah dengan foto kamu -->
+            <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-img">
+            <h1>Nama Lengkap</h1>
+            <p>disya rahil anjani</p>
+        </div>
+
+        <div class="content">
+            <div class="info-group">
+                <div class="label">Tempat, Tanggal Lahir</div>
+                <div class="value">bandung, 28 Julu 2010</div>
+            </div>
+
+            <div class="info-group">
+                <div class="label">Alamat</div>
+                <div class="value">Jl. cijotang mandiri 9, Bandung</div>
+            </div>
+
+            <div class="info-group">
+                <div class="label">Hobi</div>
+                <div class="value">Membaca, Menggambar, bermakeup</div>
+            </div>
+
+            <div class="info-group">
+                <div class="label">Keahlian</div>
+                <div class="skills">
+                    <span class="tag">memasak</span>
+                    <span class="tag">makeup</span>
+                    <span class="tag">tidur bisa lama</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
